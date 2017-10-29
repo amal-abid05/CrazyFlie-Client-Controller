@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="libs/slf4j-api-1.7.20.jar"/>
+	<classpathentry kind="lib" path="libs/slf4j-simple-1.7.20.jar"/>
+	<classpathentry kind="lib" path="libs/jackson-annotations-2.5.0.jar"/>
+	<classpathentry kind="lib" path="libs/jackson-core-2.5.4.jar"/>
+	<classpathentry kind="lib" path="libs/jackson-databind-2.5.4.jar"/>
+	<classpathentry kind="lib" path="libs/usb-api-1.0.2.jar"/>
+	<classpathentry kind="lib" path="libs/usb4java-javax-1.2.0.jar"/>
+	<classpathentry kind="lib" path="libs/commons-lang3-3.2.1.jar"/>
+	<classpathentry kind="lib" path="libs/libusb4java-1.2.0-linux-x86_64.jar"/>
+	<classpathentry kind="lib" path="libs/usb4java-1.2.0.jar"/>
+	<classpathentry kind="lib" path="libs/jsr80.jar"/>
+	<classpathentry kind="lib" path="libs/libusb4java-1.2.0-windows-x86_64.jar"/>
+	<classpathentry kind="lib" path="libs/crazyflie-client.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

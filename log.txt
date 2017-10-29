@@ -1,0 +1,8 @@
+2016-04-10 22:50:22:0368 [main] WARN UsbLinkJava - USB device not found. (VID: 6421, PID: 30583)
+2016-04-10 22:50:22:0370 [main] ERROR Crazyradio - This driver requires Crazyradio firmware V0.3+
+2016-04-10 22:50:22:0370 [main] WARN Crazyradio - You should update to Crazyradio firmware V0.4+
+2016-04-10 22:50:22:0370 [main] DEBUG Crazyradio - Resetting dongle to power up settings...
+2016-04-10 22:50:22:0370 [main] INFO RadioDriver - Found Crazyradio with version 0.0 and serial number N/A
+2016-04-10 22:50:22:0370 [main] WARN Crazyradio - Crazyradio not attached.
+2016-04-10 22:50:22:0371 [main] WARN Crazyradio - Crazyradio not attached.
+2016-04-10 22:50:22:0371 [main] WARN Crazyradio - Crazyradio not attached.

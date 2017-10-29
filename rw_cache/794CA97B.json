@@ -1,0 +1,311 @@
+{
+  "baro" : {
+    "aslLong" : {
+      "ctype" : "FLOAT",
+      "access" : 1,
+      "ident" : 14,
+      "group" : "baro",
+      "name" : "aslLong"
+    },
+    "pressure" : {
+      "ctype" : "FLOAT",
+      "access" : 1,
+      "ident" : 16,
+      "group" : "baro",
+      "name" : "pressure"
+    },
+    "aslRaw" : {
+      "ctype" : "FLOAT",
+      "access" : 1,
+      "ident" : 13,
+      "group" : "baro",
+      "name" : "aslRaw"
+    },
+    "temp" : {
+      "ctype" : "FLOAT",
+      "access" : 1,
+      "ident" : 15,
+      "group" : "baro",
+      "name" : "temp"
+    },
+    "asl" : {
+      "ctype" : "FLOAT",
+      "access" : 1,
+      "ident" : 12,
+      "group" : "baro",
+      "name" : "asl"
+    }
+  },
+  "altHold" : {
+    "vSpeedASL" : {
+      "ctype" : "FLOAT",
+      "access" : 1,
+      "ident" : 29,
+      "group" : "altHold",
+      "name" : "vSpeedASL"
+    },
+    "vSpeedAcc" : {
+      "ctype" : "FLOAT",
+      "access" : 1,
+      "ident" : 30,
+      "group" : "altHold",
+      "name" : "vSpeedAcc"
+    },
+    "target" : {
+      "ctype" : "FLOAT",
+      "access" : 1,
+      "ident" : 26,
+      "group" : "altHold",
+      "name" : "target"
+    },
+    "err" : {
+      "ctype" : "FLOAT",
+      "access" : 1,
+      "ident" : 25,
+      "group" : "altHold",
+      "name" : "err"
+    },
+    "vSpeed" : {
+      "ctype" : "FLOAT",
+      "access" : 1,
+      "ident" : 28,
+      "group" : "altHold",
+      "name" : "vSpeed"
+    },
+    "zSpeed" : {
+      "ctype" : "FLOAT",
+      "access" : 1,
+      "ident" : 27,
+      "group" : "altHold",
+      "name" : "zSpeed"
+    }
+  },
+  "motor" : {
+    "m1" : {
+      "ctype" : "INT32_T",
+      "access" : 1,
+      "ident" : 18,
+      "group" : "motor",
+      "name" : "m1"
+    },
+    "m2" : {
+      "ctype" : "INT32_T",
+      "access" : 1,
+      "ident" : 19,
+      "group" : "motor",
+      "name" : "m2"
+    },
+    "m3" : {
+      "ctype" : "INT32_T",
+      "access" : 1,
+      "ident" : 20,
+      "group" : "motor",
+      "name" : "m3"
+    },
+    "m4" : {
+      "ctype" : "INT32_T",
+      "access" : 1,
+      "ident" : 17,
+      "group" : "motor",
+      "name" : "m4"
+    }
+  },
+  "sys" : {
+    "canfly" : {
+      "ctype" : "INT8_T",
+      "access" : 1,
+      "ident" : 6,
+      "group" : "sys",
+      "name" : "canfly"
+    }
+  },
+  "mag" : {
+    "z" : {
+      "ctype" : "FLOAT",
+      "access" : 1,
+      "ident" : 40,
+      "group" : "mag",
+      "name" : "z"
+    },
+    "y" : {
+      "ctype" : "FLOAT",
+      "access" : 1,
+      "ident" : 39,
+      "group" : "mag",
+      "name" : "y"
+    },
+    "x" : {
+      "ctype" : "FLOAT",
+      "access" : 1,
+      "ident" : 38,
+      "group" : "mag",
+      "name" : "x"
+    }
+  },
+  "gyro" : {
+    "z" : {
+      "ctype" : "FLOAT",
+      "access" : 1,
+      "ident" : 33,
+      "group" : "gyro",
+      "name" : "z"
+    },
+    "y" : {
+      "ctype" : "FLOAT",
+      "access" : 1,
+      "ident" : 32,
+      "group" : "gyro",
+      "name" : "y"
+    },
+    "x" : {
+      "ctype" : "FLOAT",
+      "access" : 1,
+      "ident" : 31,
+      "group" : "gyro",
+      "name" : "x"
+    }
+  },
+  "pm" : {
+    "state" : {
+      "ctype" : "INT8_T",
+      "access" : 1,
+      "ident" : 5,
+      "group" : "pm",
+      "name" : "state"
+    },
+    "chargeCurrent" : {
+      "ctype" : "FLOAT",
+      "access" : 1,
+      "ident" : 4,
+      "group" : "pm",
+      "name" : "chargeCurrent"
+    },
+    "vbat" : {
+      "ctype" : "FLOAT",
+      "access" : 1,
+      "ident" : 3,
+      "group" : "pm",
+      "name" : "vbat"
+    }
+  },
+  "mag_raw" : {
+    "z" : {
+      "ctype" : "INT16_T",
+      "access" : 1,
+      "ident" : 2,
+      "group" : "mag_raw",
+      "name" : "z"
+    },
+    "y" : {
+      "ctype" : "INT16_T",
+      "access" : 1,
+      "ident" : 1,
+      "group" : "mag_raw",
+      "name" : "y"
+    },
+    "x" : {
+      "ctype" : "INT16_T",
+      "access" : 1,
+      "ident" : 0,
+      "group" : "mag_raw",
+      "name" : "x"
+    }
+  },
+  "vpid" : {
+    "d" : {
+      "ctype" : "FLOAT",
+      "access" : 1,
+      "ident" : 37,
+      "group" : "vpid",
+      "name" : "d"
+    },
+    "p" : {
+      "ctype" : "FLOAT",
+      "access" : 1,
+      "ident" : 35,
+      "group" : "vpid",
+      "name" : "p"
+    },
+    "pid" : {
+      "ctype" : "FLOAT",
+      "access" : 1,
+      "ident" : 34,
+      "group" : "vpid",
+      "name" : "pid"
+    },
+    "i" : {
+      "ctype" : "FLOAT",
+      "access" : 1,
+      "ident" : 36,
+      "group" : "vpid",
+      "name" : "i"
+    }
+  },
+  "stabilizer" : {
+    "thrust" : {
+      "ctype" : "UINT16_T",
+      "access" : 1,
+      "ident" : 24,
+      "group" : "stabilizer",
+      "name" : "thrust"
+    },
+    "yaw" : {
+      "ctype" : "FLOAT",
+      "access" : 1,
+      "ident" : 23,
+      "group" : "stabilizer",
+      "name" : "yaw"
+    },
+    "roll" : {
+      "ctype" : "FLOAT",
+      "access" : 1,
+      "ident" : 21,
+      "group" : "stabilizer",
+      "name" : "roll"
+    },
+    "pitch" : {
+      "ctype" : "FLOAT",
+      "access" : 1,
+      "ident" : 22,
+      "group" : "stabilizer",
+      "name" : "pitch"
+    }
+  },
+  "acc" : {
+    "mag2" : {
+      "ctype" : "FLOAT",
+      "access" : 1,
+      "ident" : 11,
+      "group" : "acc",
+      "name" : "mag2"
+    },
+    "zw" : {
+      "ctype" : "FLOAT",
+      "access" : 1,
+      "ident" : 10,
+      "group" : "acc",
+      "name" : "zw"
+    },
+    "z" : {
+      "ctype" : "FLOAT",
+      "access" : 1,
+      "ident" : 9,
+      "group" : "acc",
+      "name" : "z"
+    },
+    "y" : {
+      "ctype" : "FLOAT",
+      "access" : 1,
+      "ident" : 8,
+      "group" : "acc",
+      "name" : "y"
+    },
+    "x" : {
+      "ctype" : "FLOAT",
+      "access" : 1,
+      "ident" : 7,
+      "group" : "acc",
+      "name" : "x"
+    }
+  }
+}

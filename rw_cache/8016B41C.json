@@ -1,0 +1,444 @@
+{
+  "imu_acc_lpf" : {
+    "factor" : {
+      "ctype" : "UINT8_T",
+      "access" : 1,
+      "ident" : 5,
+      "group" : "imu_acc_lpf",
+      "name" : "factor"
+    }
+  },
+  "firmware" : {
+    "revision0" : {
+      "ctype" : "UINT32_T",
+      "access" : 0,
+      "ident" : 57,
+      "group" : "firmware",
+      "name" : "revision0"
+    },
+    "revision1" : {
+      "ctype" : "UINT16_T",
+      "access" : 0,
+      "ident" : 58,
+      "group" : "firmware",
+      "name" : "revision1"
+    },
+    "modified" : {
+      "ctype" : "UINT8_T",
+      "access" : 0,
+      "ident" : 59,
+      "group" : "firmware",
+      "name" : "modified"
+    }
+  },
+  "ring" : {
+    "solidRed" : {
+      "ctype" : "UINT8_T",
+      "access" : 1,
+      "ident" : 52,
+      "group" : "ring",
+      "name" : "solidRed"
+    },
+    "solidBlue" : {
+      "ctype" : "UINT8_T",
+      "access" : 1,
+      "ident" : 54,
+      "group" : "ring",
+      "name" : "solidBlue"
+    },
+    "neffect" : {
+      "ctype" : "UINT32_T",
+      "access" : 0,
+      "ident" : 51,
+      "group" : "ring",
+      "name" : "neffect"
+    },
+    "effect" : {
+      "ctype" : "UINT8_T",
+      "access" : 1,
+      "ident" : 50,
+      "group" : "ring",
+      "name" : "effect"
+    },
+    "solidGreen" : {
+      "ctype" : "UINT8_T",
+      "access" : 1,
+      "ident" : 53,
+      "group" : "ring",
+      "name" : "solidGreen"
+    },
+    "glowstep" : {
+      "ctype" : "FLOAT",
+      "access" : 1,
+      "ident" : 56,
+      "group" : "ring",
+      "name" : "glowstep"
+    },
+    "headlightEnable" : {
+      "ctype" : "UINT8_T",
+      "access" : 1,
+      "ident" : 55,
+      "group" : "ring",
+      "name" : "headlightEnable"
+    }
+  },
+  "pid_rate" : {
+    "pitch_kd" : {
+      "ctype" : "FLOAT",
+      "access" : 1,
+      "ident" : 16,
+      "group" : "pid_rate",
+      "name" : "pitch_kd"
+    },
+    "pitch_ki" : {
+      "ctype" : "FLOAT",
+      "access" : 1,
+      "ident" : 15,
+      "group" : "pid_rate",
+      "name" : "pitch_ki"
+    },
+    "roll_kd" : {
+      "ctype" : "FLOAT",
+      "access" : 1,
+      "ident" : 13,
+      "group" : "pid_rate",
+      "name" : "roll_kd"
+    },
+    "yaw_kp" : {
+      "ctype" : "FLOAT",
+      "access" : 1,
+      "ident" : 17,
+      "group" : "pid_rate",
+      "name" : "yaw_kp"
+    },
+    "pitch_kp" : {
+      "ctype" : "FLOAT",
+      "access" : 1,
+      "ident" : 14,
+      "group" : "pid_rate",
+      "name" : "pitch_kp"
+    },
+    "roll_kp" : {
+      "ctype" : "FLOAT",
+      "access" : 1,
+      "ident" : 11,
+      "group" : "pid_rate",
+      "name" : "roll_kp"
+    },
+    "yaw_kd" : {
+      "ctype" : "FLOAT",
+      "access" : 1,
+      "ident" : 19,
+      "group" : "pid_rate",
+      "name" : "yaw_kd"
+    },
+    "yaw_ki" : {
+      "ctype" : "FLOAT",
+      "access" : 1,
+      "ident" : 18,
+      "group" : "pid_rate",
+      "name" : "yaw_ki"
+    },
+    "roll_ki" : {
+      "ctype" : "FLOAT",
+      "access" : 1,
+      "ident" : 12,
+      "group" : "pid_rate",
+      "name" : "roll_ki"
+    }
+  },
+  "imu_sensors" : {
+    "HMC5883L" : {
+      "ctype" : "UINT8_T",
+      "access" : 0,
+      "ident" : 0,
+      "group" : "imu_sensors",
+      "name" : "HMC5883L"
+    },
+    "MS5611" : {
+      "ctype" : "UINT8_T",
+      "access" : 0,
+      "ident" : 1,
+      "group" : "imu_sensors",
+      "name" : "MS5611"
+    }
+  },
+  "altHold" : {
+    "vSpeedASLFac" : {
+      "ctype" : "FLOAT",
+      "access" : 1,
+      "ident" : 45,
+      "group" : "altHold",
+      "name" : "vSpeedASLFac"
+    },
+    "vSpeedAccFac" : {
+      "ctype" : "FLOAT",
+      "access" : 1,
+      "ident" : 43,
+      "group" : "altHold",
+      "name" : "vSpeedAccFac"
+    },
+    "vSpeedASLDeadband" : {
+      "ctype" : "FLOAT",
+      "access" : 1,
+      "ident" : 44,
+      "group" : "altHold",
+      "name" : "vSpeedASLDeadband"
+    },
+    "aslAlpha" : {
+      "ctype" : "FLOAT",
+      "access" : 1,
+      "ident" : 31,
+      "group" : "altHold",
+      "name" : "aslAlpha"
+    },
+    "kp" : {
+      "ctype" : "FLOAT",
+      "access" : 1,
+      "ident" : 38,
+      "group" : "altHold",
+      "name" : "kp"
+    },
+    "vSpeedLimit" : {
+      "ctype" : "FLOAT",
+      "access" : 1,
+      "ident" : 46,
+      "group" : "altHold",
+      "name" : "vSpeedLimit"
+    },
+    "minThrust" : {
+      "ctype" : "UINT16_T",
+      "access" : 1,
+      "ident" : 49,
+      "group" : "altHold",
+      "name" : "minThrust"
+    },
+    "vAccDeadband" : {
+      "ctype" : "FLOAT",
+      "access" : 1,
+      "ident" : 41,
+      "group" : "altHold",
+      "name" : "vAccDeadband"
+    },
+    "altHoldChangeSens" : {
+      "ctype" : "FLOAT",
+      "access" : 1,
+      "ident" : 34,
+      "group" : "altHold",
+      "name" : "altHoldChangeSens"
+    },
+    "vBiasAlpha" : {
+      "ctype" : "FLOAT",
+      "access" : 1,
+      "ident" : 42,
+      "group" : "altHold",
+      "name" : "vBiasAlpha"
+    },
+    "ki" : {
+      "ctype" : "FLOAT",
+      "access" : 1,
+      "ident" : 37,
+      "group" : "altHold",
+      "name" : "ki"
+    },
+    "baseThrust" : {
+      "ctype" : "UINT16_T",
+      "access" : 1,
+      "ident" : 47,
+      "group" : "altHold",
+      "name" : "baseThrust"
+    },
+    "aslAlphaLong" : {
+      "ctype" : "FLOAT",
+      "access" : 1,
+      "ident" : 32,
+      "group" : "altHold",
+      "name" : "aslAlphaLong"
+    },
+    "kd" : {
+      "ctype" : "FLOAT",
+      "access" : 1,
+      "ident" : 36,
+      "group" : "altHold",
+      "name" : "kd"
+    },
+    "errDeadband" : {
+      "ctype" : "FLOAT",
+      "access" : 1,
+      "ident" : 33,
+      "group" : "altHold",
+      "name" : "errDeadband"
+    },
+    "pidAlpha" : {
+      "ctype" : "FLOAT",
+      "access" : 1,
+      "ident" : 39,
+      "group" : "altHold",
+      "name" : "pidAlpha"
+    },
+    "pidAslFac" : {
+      "ctype" : "FLOAT",
+      "access" : 1,
+      "ident" : 40,
+      "group" : "altHold",
+      "name" : "pidAslFac"
+    },
+    "maxThrust" : {
+      "ctype" : "UINT16_T",
+      "access" : 1,
+      "ident" : 48,
+      "group" : "altHold",
+      "name" : "maxThrust"
+    },
+    "altHoldErrMax" : {
+      "ctype" : "FLOAT",
+      "access" : 1,
+      "ident" : 35,
+      "group" : "altHold",
+      "name" : "altHoldErrMax"
+    }
+  },
+  "sensorfusion6" : {
+    "ki" : {
+      "ctype" : "FLOAT",
+      "access" : 1,
+      "ident" : 30,
+      "group" : "sensorfusion6",
+      "name" : "ki"
+    },
+    "kp" : {
+      "ctype" : "FLOAT",
+      "access" : 1,
+      "ident" : 29,
+      "group" : "sensorfusion6",
+      "name" : "kp"
+    }
+  },
+  "flightmode" : {
+    "althold" : {
+      "ctype" : "UINT8_T",
+      "access" : 1,
+      "ident" : 10,
+      "group" : "flightmode",
+      "name" : "althold"
+    }
+  },
+  "imu_tests" : {
+    "HMC5883L" : {
+      "ctype" : "UINT8_T",
+      "access" : 0,
+      "ident" : 3,
+      "group" : "imu_tests",
+      "name" : "HMC5883L"
+    },
+    "MS5611" : {
+      "ctype" : "UINT8_T",
+      "access" : 0,
+      "ident" : 4,
+      "group" : "imu_tests",
+      "name" : "MS5611"
+    },
+    "MPU6500" : {
+      "ctype" : "UINT8_T",
+      "access" : 0,
+      "ident" : 2,
+      "group" : "imu_tests",
+      "name" : "MPU6500"
+    }
+  },
+  "pid_attitude" : {
+    "pitch_kd" : {
+      "ctype" : "FLOAT",
+      "access" : 1,
+      "ident" : 25,
+      "group" : "pid_attitude",
+      "name" : "pitch_kd"
+    },
+    "pitch_ki" : {
+      "ctype" : "FLOAT",
+      "access" : 1,
+      "ident" : 24,
+      "group" : "pid_attitude",
+      "name" : "pitch_ki"
+    },
+    "roll_kd" : {
+      "ctype" : "FLOAT",
+      "access" : 1,
+      "ident" : 22,
+      "group" : "pid_attitude",
+      "name" : "roll_kd"
+    },
+    "yaw_kp" : {
+      "ctype" : "FLOAT",
+      "access" : 1,
+      "ident" : 26,
+      "group" : "pid_attitude",
+      "name" : "yaw_kp"
+    },
+    "pitch_kp" : {
+      "ctype" : "FLOAT",
+      "access" : 1,
+      "ident" : 23,
+      "group" : "pid_attitude",
+      "name" : "pitch_kp"
+    },
+    "roll_kp" : {
+      "ctype" : "FLOAT",
+      "access" : 1,
+      "ident" : 20,
+      "group" : "pid_attitude",
+      "name" : "roll_kp"
+    },
+    "yaw_kd" : {
+      "ctype" : "FLOAT",
+      "access" : 1,
+      "ident" : 28,
+      "group" : "pid_attitude",
+      "name" : "yaw_kd"
+    },
+    "yaw_ki" : {
+      "ctype" : "FLOAT",
+      "access" : 1,
+      "ident" : 27,
+      "group" : "pid_attitude",
+      "name" : "yaw_ki"
+    },
+    "roll_ki" : {
+      "ctype" : "FLOAT",
+      "access" : 1,
+      "ident" : 21,
+      "group" : "pid_attitude",
+      "name" : "roll_ki"
+    }
+  },
+  "cpu" : {
+    "flash" : {
+      "ctype" : "UINT16_T",
+      "access" : 0,
+      "ident" : 6,
+      "group" : "cpu",
+      "name" : "flash"
+    },
+    "id2" : {
+      "ctype" : "UINT32_T",
+      "access" : 0,
+      "ident" : 9,
+      "group" : "cpu",
+      "name" : "id2"
+    },
+    "id1" : {
+      "ctype" : "UINT32_T",
+      "access" : 0,
+      "ident" : 8,
+      "group" : "cpu",
+      "name" : "id1"
+    },
+    "id0" : {
+      "ctype" : "UINT32_T",
+      "access" : 0,
+      "ident" : 7,
+      "group" : "cpu",
+      "name" : "id0"
+    }
+  }
+}
